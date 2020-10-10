@@ -54,3 +54,5 @@ Cenário: professor visualizando tela de relatório de auto-avaliação com disc
     E a aluna “Joana” só tem conceitos iguais.
     Quando o professor “João” solicitar a “tela de relatório de auto-avaliações”
     Então no campo “Total de alunos com auto-avaliações discrepantes” terá o número 1, o campo “Porcentagem de alunos com auto-avaliações discrepantes” terá 33,33%, e a “lista de alunos” terá um nome sendo “1. Gabriela”.
+
+Cenário: teste
