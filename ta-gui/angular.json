@@ -18,11 +18,7 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-<<<<<<< HEAD
-            "aot": true,
-=======
             "aot": false,
->>>>>>> cbde7ff2dabb465b4da631941f1b700fc546608c
             "assets": [
               "src/favicon.ico",
               "src/assets"
