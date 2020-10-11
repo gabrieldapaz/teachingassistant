@@ -1,6 +1,10 @@
 # TaGui
 
+<<<<<<< HEAD
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.6.
+=======
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.3.
+>>>>>>> cbde7ff2dabb465b4da631941f1b700fc546608c
 
 ## Development server
 

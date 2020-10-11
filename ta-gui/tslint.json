@@ -1,5 +1,6 @@
 {
   "extends": "tslint:recommended",
+<<<<<<< HEAD
   "rulesDirectory": [
     "codelyzer"
   ],
@@ -17,21 +18,52 @@
       "severity": "warning"
     },
     "eofline": true,
+=======
+  "rules": {
+    "array-type": false,
+    "arrow-parens": false,
+    "deprecation": {
+      "severity": "warning"
+    },
+    "component-class-suffix": true,
+    "contextual-lifecycle": true,
+    "directive-class-suffix": true,
+    "directive-selector": [
+      true,
+      "attribute",
+      "app",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "app",
+      "kebab-case"
+    ],
+>>>>>>> cbde7ff2dabb465b4da631941f1b700fc546608c
     "import-blacklist": [
       true,
       "rxjs/Rx"
     ],
+<<<<<<< HEAD
     "import-spacing": true,
     "indent": {
       "options": [
         "spaces"
       ]
     },
+=======
+    "interface-name": false,
+>>>>>>> cbde7ff2dabb465b4da631941f1b700fc546608c
     "max-classes-per-file": false,
     "max-line-length": [
       true,
       140
     ],
+<<<<<<< HEAD
+=======
+    "member-access": false,
+>>>>>>> cbde7ff2dabb465b4da631941f1b700fc546608c
     "member-ordering": [
       true,
       {
@@ -43,6 +75,10 @@
         ]
       }
     ],
+<<<<<<< HEAD
+=======
+    "no-consecutive-blank-lines": false,
+>>>>>>> cbde7ff2dabb465b4da631941f1b700fc546608c
     "no-console": [
       true,
       "debug",
@@ -59,15 +95,25 @@
     "no-non-null-assertion": true,
     "no-redundant-jsdoc": true,
     "no-switch-case-fall-through": true,
+<<<<<<< HEAD
+=======
+    "no-use-before-declare": true,
+>>>>>>> cbde7ff2dabb465b4da631941f1b700fc546608c
     "no-var-requires": false,
     "object-literal-key-quotes": [
       true,
       "as-needed"
     ],
+<<<<<<< HEAD
+=======
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+>>>>>>> cbde7ff2dabb465b4da631941f1b700fc546608c
     "quotemark": [
       true,
       "single"
     ],
+<<<<<<< HEAD
     "semicolon": {
       "options": [
         "always"
@@ -124,6 +170,9 @@
     "component-class-suffix": true,
     "contextual-lifecycle": true,
     "directive-class-suffix": true,
+=======
+    "trailing-comma": false,
+>>>>>>> cbde7ff2dabb465b4da631941f1b700fc546608c
     "no-conflicting-lifecycle": true,
     "no-host-metadata-property": true,
     "no-input-rename": true,
@@ -135,6 +184,7 @@
     "template-banana-in-box": true,
     "template-no-negated-async": true,
     "use-lifecycle-interface": true,
+<<<<<<< HEAD
     "use-pipe-transform-interface": true,
     "directive-selector": [
       true,
@@ -150,3 +200,11 @@
     ]
   }
 }
+=======
+    "use-pipe-transform-interface": true
+  },
+  "rulesDirectory": [
+    "codelyzer"
+  ]
+}
+>>>>>>> cbde7ff2dabb465b4da631941f1b700fc546608c
