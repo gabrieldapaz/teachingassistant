@@ -41,10 +41,7 @@
               "sourceMap": false,
               "extractCss": true,
               "namedChunks": false,
-<<<<<<< HEAD
-=======
               "aot": true,
->>>>>>> cbde7ff2dabb465b4da631941f1b700fc546608c
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
@@ -125,8 +122,4 @@
       }
     }},
   "defaultProject": "ta-gui"
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> cbde7ff2dabb465b4da631941f1b700fc546608c
